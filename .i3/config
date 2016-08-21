@@ -26,6 +26,11 @@ bindsym $mod+Shift+a kill
 # start dmenu (a program launcher)
 bindsym $mod+d exec dmenu_run
 
+# control audio
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume 0 +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume 0 -5%
+bindsym XF86AudioMute exec pactl set-sink-mute 0 toggle
+
 # change focus
 bindsym $mod+j focus left
 bindsym $mod+k focus down
