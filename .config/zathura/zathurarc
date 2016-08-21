@@ -1,0 +1,10 @@
+# font
+set font "Fira Mono Medium for Powerline Medium" normal 12
+set default-bg "#282828"
+set default-fg "#ebdbb2"
+
+# text color
+set recolor-darkcolor  "#ebdbb2"
+# background color
+set recolor-lightcolor "#282828"
+
